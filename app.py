@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 
 # Load the CSV data
-data_url = 'data/python_learning_schedule_updated.csv'
-progress_file = 'data/progress_tracking.csv'
+data_url = 'python_learning_schedule_updated.csv'
+progress_file = 'progress_tracking.csv'
 
 # Function to load data from the CSV file
 @st.cache_data
